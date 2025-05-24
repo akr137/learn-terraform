@@ -1,0 +1,29 @@
+# Local .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Sensitive variable overrides
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output
+*.tfplan
+
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials or config if present locally (optional)
+*.pem
+*.key
+credentials
+.aws/
+
+# Editor-specific files (optional but recommended)
+.vscode/
+.idea/
+*.swp
+.DS_Store
