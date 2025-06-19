@@ -1,8 +1,8 @@
 node {
-  step ('init') {
+  stage('Init') {
     sh 'terraform init'
   }
-  step ('validate') {
+  stage('Validate') {
     sh 'terraform validate'
   }
 }
